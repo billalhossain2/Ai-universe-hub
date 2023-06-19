@@ -1,0 +1,56 @@
+ul{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.modal-card{
+    border: solid rgba(255, 0, 0, 0.308) 2px;
+}
+
+.modal-card-right{
+    border: 0;
+}
+.modal-card-right .card-body img{
+    border-radius: 10px;
+}
+
+.modal-image-container{
+    position: relative;
+}
+.accuracy{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.modal-content{
+    position: relative;
+}
+.cross-button-container{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 1;
+    background: #b40a0a;
+    color: #fff;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cross-button-container i{
+    display: block;
+}
